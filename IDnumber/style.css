@@ -1,0 +1,38 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.InputForm {
+	padding: 20px;
+	margin: 4px;
+	width: 75%;
+	background-color: khaki;
+    
+}
+.inputField {
+	padding: none;
+}
+
+.submitBtn {
+	background-color: #b7b7b7;
+	font-family: "arial";
+	box-shadow: 0.5px -0.5px 2px 1px;
+}
+
+.submitBtn:active {
+	background-color: #b7b7b7;
+	box-shadow: 0.5px -0.5px 4px 2px;
+}
+
+span {
+	top: 20px;
+	background-color: khaki;
+	border-style: none;
+	border-width: 1px;
+	padding-left: 1px;
+	padding-right: ;
+	font-family: "arial";
+	color: white;
+}

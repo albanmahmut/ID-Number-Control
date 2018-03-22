@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="http://127.0.0.1:55425/style.css">
+	<title>Lesson</title>
+</head>
+<body>
+
+<!-- ID NUMBER VALIDATING -->
+<article class="InputForm">
+	<h2 id="titlePersonNum">ID Number:</h2>
+
+	<div class="inputField">
+	<input type="text" name="personNum" id="personNumInput" maxlength="12">
+	<button type="submit" class="submitBtn" onclick="performValidityCheck()">Submit</button>
+	</div>
+
+	<span id="outputField"></span>
+</article>
+
+<!--LEAP YEAR -->
+<article class="InputForm">
+	<h2 id="titleShotyear">Leap Year: </h2>
+
+	<div class="inputField">
+		<input type="text" name="skottar" id="shotyearInput" maxlength="4">
+		<button type="submit" class="submitBtn" onclick="checkIfLeapyear()">Submit</button>
+	</div>
+
+		<span id="leapYearOutput"></span>
+</article>
+
+
+<!-- DIGIT SUM -->
+<article class="InputForm">
+	<h2 id="titleCheckSum">Digit Sum: </h2>
+
+	<div class="inputField">
+		<input type="text" name="siffersumma" id="checkSumUserInput">
+		<button type="submit" class="submitBtn" onclick="checkNumber()">Submit</button>
+	</div>
+
+	<span id="checkSumOutput"></span>
+</article>
+    
+    <script type="text/javascript" src="http://127.0.0.1:55425/main.js"></script>
+    
+    </body>
+</html>
