@@ -44,7 +44,7 @@ function shortenNumber(num) {
 	return num.substring(2, 12);
 }
 
-/* Entire freakin Luhn check */
+/* Luhn check */
 function luhnCheck(num) {
 	var sum = (""+num).split("");
 	var controlNum = parseInt(sum[9]);
@@ -81,7 +81,7 @@ function outputInvalid(){
 }
 
 
-/* CHECK IF SHOT YEAR */
+/* CHECK YEAR */
 var leapyearInput = document.getElementById('shotyearInput');
 var leapyearOutput = document.getElementById('leapYearOutput');
 var year;
@@ -109,7 +109,7 @@ function isNotLeapYear(year) {
 }
 
 
-/* ################## */
+
 /* CHECK SUM OF NUMBER */
 var checkSumInput = document.getElementById('checkSumUserInput');
 var checkSumOutput = document.getElementById('checkSumOutput');
